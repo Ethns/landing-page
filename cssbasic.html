@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            min-height: 200vh;
+
+        }
+        .parent {
+            position: relative;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .child {
+            padding: .25rem;
+        }
+
+        .child-1 {
+            position: sticky;
+            left: 0px;
+            top: 0px;
+            background-color: lightblue;
+        }
+        .child-2 {
+            top: 0px;
+            right: 0px;
+            background-color: lightcoral;
+        }
+        .child-3 {
+            position: sticky;
+            background-color: lightgreen;
+        }
+        .child-4 {
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent parent-1">
+        <div class="child child-1">One</div>
+        <div class="child child-2">Two</div>
+    </div>
+    <div class="parent parent-2">
+        <div class="child child-3">Three</div>
+        <div class="child child-4">Four</div>
+    </div>
+    
+</body>
+</html>
